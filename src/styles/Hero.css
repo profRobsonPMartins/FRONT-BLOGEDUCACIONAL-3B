@@ -1,7 +1,7 @@
 .hero {
     position: relative;
     padding: 50px 20px;
-    /* background-image: url(../img/04.jpeg); */
+    background-image: url(../components/img/04.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
