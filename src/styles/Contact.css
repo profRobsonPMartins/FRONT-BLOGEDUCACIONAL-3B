@@ -1,0 +1,81 @@
+ /* Estilos gerais para a seção de newsletter */
+ .newsletter-section {
+    background-color: var(--primeira-cor);
+    padding: 50px 0;
+    color: var(--quinta-cor);
+    text-align: center;
+  }
+  
+  .newsletter-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: var(--terceira-cor);
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+  }
+  
+  h3 {
+    font-size: 2.2rem;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  h3 span {
+    color: var(--terceira-cor);
+  }
+  
+  /* Estilos para o parágrafo de descrição */
+  .newsletter-container p {
+    font-size: 1rem;
+    margin-top: 20px;
+    color: var(--quarta-cor);
+  }
+  
+  /* Estilos para o formulário */
+  .newsletter-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .newsletter-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--quarta-cor);
+    border-radius: 5px;
+    width: 80%;
+    font-size: 1rem;
+    color: var(--primeira-cor);
+  }
+  
+  .newsletter-form button {
+    background-color: var(--terceira-cor);
+    color: var(--quinta-cor);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: var(--segunda-cor);
+  }
+  
+  /* Estilos para a mensagem de resposta */
+  .response-message {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: var(--sexta-cor);
+    font-weight: bold;
+  }
+  
