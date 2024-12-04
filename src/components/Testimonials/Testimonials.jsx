@@ -3,20 +3,20 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../../styles/Testimonials.css';
-import aluno01 from  '../img/aluna-ana.jpeg';
-import aluno02 from  '../img/aluna-ariane.jpeg';
-import aluno03 from  '../img/aluna-lays.jpeg';
-import aluno04 from  '../img/aluna-lyana.jpeg';
-import aluno05 from  '../img/aluna-maria.jpeg';
-import aluno06 from  '../img/aluna-natalia.jpeg';
-import aluno07 from  '../img/aluna-yasmin.jpeg';
-import aluno08 from  '../img/aluno-diego.jpeg';
-import aluno09 from  '../img/aluno-geovane.jpeg';
-import aluno10 from  '../img/aluno-kaua.jpeg';
-import aluno11 from  '../img/aluno-pedro.jpeg';
-import aluno12 from '../img/aluno-diego-nunes.jpeg'
-import aluno13 from '../img/aluno-mateus-mendes.jpeg'
-import aluno14 from '../img/aluna-daiana.jpeg'
+import aluno01 from  '../img/aluna-ana.svg';
+import aluno02 from  '../img/aluna-ariane.svg';
+import aluno03 from  '../img/aluna-lays.svg';
+import aluno04 from  '../img/aluna-lyana.svg';
+import aluno05 from  '../img/aluna-maria.svg';
+import aluno06 from  '../img/aluna-natalia.svg';
+import aluno07 from  '../img/aluna-yasmin.svg';
+import aluno08 from  '../img/aluno-diego.svg';
+import aluno09 from  '../img/aluno-geovane.svg';
+import aluno10 from  '../img/aluno-kaua.svg';
+import aluno11 from  '../img/aluno-pedro.svg';
+import aluno12 from '../img/aluno-diego-nunes.svg'
+import aluno13 from '../img/aluno-mateus-mendes.svg'
+import aluno14 from '../img/aluna-daiana.svg'
 
 
 

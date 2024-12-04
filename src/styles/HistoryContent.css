@@ -1,37 +1,71 @@
 .history-container {
-    padding: 20px;
-    background-color: var(--quinta-cor);
-    color: var(--primeira-cor);
-  }
-  
-  .history-container h1 {
-    color: var(--terceira-cor);
-  }
-  
-  .history-container h2 {
-    color: var(--segunda-cor);
-  }
-  
-  .history-container p {
-    line-height: 1.6;
-  }
-  
-  .history-container ul {
-    list-style-type: square;
-    margin-left: 20px;
-  }
-  
-  .history-container button {
-    background-color: var(--sexta-cor);
-    color: var(--quinta-cor);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .history-container button:hover {
-    background-color: var(--quarta-cor);
-  }
-  
+  padding: 20px;
+  background-color: var(--quinta-cor);
+  color: var(--primeira-cor);
+}
+
+.history-container h1 {
+  color: var(--terceira-cor);
+  text-align: start;
+}
+
+.history-container h2 {
+  color: var(--segunda-cor);
+  text-align: start;
+}
+
+.history-container p {
+  text-align: start;
+  line-height: 1.6;
+}
+
+.history-container ul {
+  list-style-type: square;
+  margin-left: 20px;
+  text-align: start;
+}
+
+.history-container button {
+  background-color: var(--sexta-cor);
+  color: var(--quinta-cor);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.history-container button:hover {
+  background-color: var(--quarta-cor);
+}
+
+.container-conteudo{
+  min-height: 100vh;
+  padding: 5px;
+  margin-top: 30px;
+}
+.boxs{
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  text-align: start;
+}
+.box-conteudo1{
+  width: 100%;
+  text-align: start;
+  margin-bottom: 30px;
+}
+.box-conteudo1 p{
+  color: var(--primeira-cor);
+
+}
+.box-conteudo1 h1{
+  text-align: start;
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: var(--terceira-cor);
+}
+.box-conteudo1 a{
+  color: rgb(11, 0, 137);
+  text-decoration: underline;
+}

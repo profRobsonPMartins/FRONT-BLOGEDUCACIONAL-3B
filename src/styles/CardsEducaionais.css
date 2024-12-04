@@ -41,6 +41,7 @@
   .card h3 {
     margin: 10px 0;
     color: var(--segunda-cor);
+    font-size: x-large;
   }
   
   .card p {

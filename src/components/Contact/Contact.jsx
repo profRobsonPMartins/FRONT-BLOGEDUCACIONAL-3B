@@ -35,8 +35,7 @@ const Contact = () => {
         <section className="newsletter-section">
             <div className="newsletter-container">
                 <h1>EducaTec 3ºB</h1>
-                <h2>Subscribe to our</h2>
-                <h3><span>News</span>Letter</h3>
+                <h3><span>Inscreva-</span>se</h3>
                 <p>
                     Fique por dentro das últimas notícias e eventos da nossa escola ao se
                     inscrever em nossa newsletter. Receba diretamente em seu e-mail informações

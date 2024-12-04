@@ -1,36 +1,132 @@
+/* Estilos gerais */
 .biology-container {
-    padding: 20px;
-    background-color: var(--quinta-cor);
-    color: var(--primeira-cor);
+  padding: 20px;
+  background-color: var(--quinta-cor);
+  color: var(--primeira-cor);
+}
+
+.biology-container h1 {
+  color: var(--terceira-cor);
+  font-size: 2.5rem;
+}
+
+.biology-container h2 {
+  color: var(--segunda-cor);
+  font-size: 2rem;
+}
+
+.biology-container p {
+  line-height: 1.6;
+}
+
+.biology-container ul {
+  list-style-type: square;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.biology-container button {
+  background-color: var(--sexta-cor);
+  color: var(--quinta-cor);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.biology-container button:hover {
+  background-color: var(--quarta-cor);
+  border: 2px solid var(--terceira-cor);
+}
+
+.biology-container img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.section {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .biology-container {
+    padding: 40px;
   }
-  
+
   .biology-container h1 {
-    color: var(--terceira-cor);
+    font-size: 3rem;
   }
-  
+
   .biology-container h2 {
-    color: var(--segunda-cor);
+    font-size: 2.5rem;
   }
-  
-  .biology-container p {
-    line-height: 1.6;
-  }
-  
-  .biology-container ul {
-    list-style-type: square;
-    margin-left: 20px;
-  }
-  
+
   .biology-container button {
-    background-color: var(--sexta-cor);
-    color: var(--quinta-cor);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    padding: 15px 30px;
   }
-  
-  .biology-container button:hover {
-    background-color: var(--quarta-cor);
+
+  .biology-container img {
+    max-width: 700px;
   }
+}
+
+/* tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .biology-container {
+    padding: 30px;
+  }
+
+  .biology-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .biology-container h2 {
+    font-size: 2.2rem;
+  }
+
+  .biology-container button {
+    padding: 12px 25px;
+  }
+
+  .biology-container img {
+    max-width: 600px;
+  }
+}
+
+/* celular */
+@media (max-width: 768px) {
+  .biology-container {
+    padding: 15px;
+  }
+
+  .biology-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .biology-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .biology-container p {
+    font-size: 1rem;
+  }
+
+  .biology-container ul {
+    margin-left: 10px;
+  }
+
+  .biology-container button {
+    padding: 12px 20px;
+    width: 100%;
+  }
+
+  .biology-container img {
+    max-width: 100%;
+  }
+}

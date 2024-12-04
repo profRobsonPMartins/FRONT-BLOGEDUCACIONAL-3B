@@ -1,37 +1,81 @@
-
 .sociology-container {
-    padding: 20px;
-    background-color: var(--quinta-cor);
-    color: var(--primeira-cor);
-  }
-  
-  .sociology-container h1 {
-    color: var(--terceira-cor);
-  }
-  
-  .sociology-container h2 {
-    color: var(--segunda-cor);
-  }
-  
-  .sociology-container p {
-    line-height: 1.6;
-  }
-  
-  .sociology-container ul {
-    list-style-type: square;
-    margin-left: 20px;
-  }
-  
-  .sociology-container button {
-    background-color: var(--sexta-cor);
-    color: var(--quinta-cor);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .sociology-container button:hover {
-    background-color: var(--quarta-cor);
-  }
+  padding: 20px;
+  background-color: var(--quinta-cor);
+  color: var(--primeira-cor);
+}
+
+.sociology-container h1 {
+  color: var(--terceira-cor);
+  text-align: start;
+}
+
+.sociology-container h2 {
+  color: var(--segunda-cor);
+  text-align: start;
+}
+
+.sociology-container p {
+  line-height: 1.6;
+  text-align: start;
+  margin: 20px;
+  display: flex;
+  justify-content: start;
+}
+
+.sociology-container ul {
+  align-items: start;
+  justify-items: center;
+  list-style-type: square;
+}
+
+.sociology-container button {
+  background-color: var(--sexta-cor);
+  color: var(--quinta-cor);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sociology-container button:hover {
+  background-color: var(--quarta-cor);
+}
+
+
+imgRedes {
+  height: 100%;
+  width: 100%;
+
+}
+
+img {
+  height: 300px;
+  width: 500px;
+  margin: 30px;
+}
+
+imgDigital {
+  height: 100%;
+  width: 100%;
+
+}
+
+.conteiner-img {
+  border: 2px solid rgb(255, 255, 255);
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 250px;
+  width: 500px;
+  margin: 30px;
+}
+
+imgSociais {
+  height: 100%;
+  width: 100%;
+}

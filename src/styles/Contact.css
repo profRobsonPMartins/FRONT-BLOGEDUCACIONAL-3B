@@ -1,19 +1,25 @@
  /* Estilos gerais para a seção de newsletter */
  .newsletter-section {
-    background-color: var(--primeira-cor);
+    background-image: url(../components/img/education.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 50px 0;
     color: var(--quinta-cor);
     text-align: center;
   }
   
   .newsletter-container {
+    background-color: var(--primeira-cor);
+    padding: 20px;
     max-width: 600px;
     margin: 0 auto;
+    border-radius: 5px;
   }
   
-  h1 {
+  .newsletter-container h1 {
     font-size: 2.5rem;
-    color: var(--terceira-cor);
+    color: var(--quinta-cor);
   }
   
   h2 {
@@ -36,6 +42,7 @@
     font-size: 1rem;
     margin-top: 20px;
     color: var(--quarta-cor);
+    text-align: center;
   }
   
   /* Estilos para o formulário */
