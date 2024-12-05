@@ -17,6 +17,12 @@ import aluno11 from  '../img/aluno-pedro.svg';
 import aluno12 from '../img/aluno-diego-nunes.svg'
 import aluno13 from '../img/aluno-mateus-mendes.svg'
 import aluno14 from '../img/aluna-daiana.svg'
+import aluno15 from '../img/laiza 1.svg'
+import aluno16 from '../img/aluno-antony.svg'
+import aluno17 from '../img/aluna-vitoria.svg'
+import aluno18 from '../img/aluno-eric.svg'
+import aluno19 from '../img/aluno-diego-neves.svg'
+import aluno20 from '../img/aluna-leticia-dias.svg'
 
 
 
@@ -117,7 +123,7 @@ const Testimonials = () => {
     {
       name: "Leticia Dias",
       role: "Aluna",
-      image: 'https://via.placeholder.com/80',
+      image: aluno20,
       comment: "Tive dificuldades com sintaxes, mas após praticar, tudo começou a fazer sentido. Prática leva à perfeição!",
     },
     {
@@ -135,25 +141,25 @@ const Testimonials = () => {
     {
       name: "Antony Ian",
       role: "Aluno",
-      image: 'https://via.placeholder.com/80',
+      image: aluno16,
       comment: "Participar de hackathons ajudou a aplicar o que aprendi. A pressão de entregar rápido melhorou meu aprendizado.",
     },
     {
       name: "Vitoria Maria",
       role: "Aluna",
-      image: 'https://via.placeholder.com/80',
+      image: aluno17,
       comment: "O curso me mostrou que programação é mais que código; é sobre resolver problemas e criar soluções.",
     },
     {
       name: "Eric Rocha",
       role: "Aluno",
-      image: 'https://via.placeholder.com/80',
+      image: aluno18,
       comment: "As revisões e feedback dos professores foram essenciais. Ajudaram-me a melhorar meu código e entender mais.",
     },
     {
       name: "Laiza Barreto",
       role: "Aluna",
-      image: 'https://via.placeholder.com/80',
+      image: aluno15,
       comment: "A transição de teoria para prática foi desafiadora, mas recompensadora. Ver o projeto finalizado motivou-me muito.",
     },
     {
@@ -165,7 +171,7 @@ const Testimonials = () => {
     {
       name: "Diego Neves",
       role: "Aluno",
-      image: 'https://via.placeholder.com/80',
+      image: aluno19,
       comment: "O desenvolvimento ágil me fascinou. Trabalhar em sprints e melhorar continuamente foi incrível!",
     },
   ];
