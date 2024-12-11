@@ -16,13 +16,14 @@
   
   .footer-section {
     flex: 1 1 200px;
-    margin: 20px;
+    padding: 40px;
   }
   .logo-section h2{
     text-align: start;
+    color: var(--terceira-cor);
   }
   .logo-section p{
-    text-align: start;
+    text-align: justify;
   }
   
   .footer-logo {
@@ -56,6 +57,7 @@
     margin-bottom: 15px;
     font-size: 18px;
     text-align: start;
+    color: var(--terceira-cor);
   }
   
   .footer-section ul {

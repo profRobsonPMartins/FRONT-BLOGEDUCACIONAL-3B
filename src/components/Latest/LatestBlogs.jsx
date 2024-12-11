@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'; // Importa useNavigate
 import '../../styles/LatestBlogs.css'; // Importa o CSS
 import img01 from '../img/IOUSP.svg';
 import img02 from '../img/residuos.svg';
-import img03 from '../img/unisepe.svg';
+import img03 from '../img/feira-profissoes-unisepe.svg';
 
 const LatestBlogs = () => {
   const navigate = useNavigate(); // Hook para navegação
@@ -22,7 +22,7 @@ const LatestBlogs = () => {
       date: "05.11.2023",
       author: "Dia do Mar",
       title: "O Dia do Mar: Lixo e Resíduos - Impactos na vida marinha",
-      image: img01,
+      image: img02,
       description: "Em homenagem ao Dia do Mar, destacamos a quantidade de lixo coletado e os resíduos microscópicos que causam danos e afetam gravemente o meio ambiente.",
       path: "/marine-day"
     },
@@ -30,7 +30,7 @@ const LatestBlogs = () => {
       date: "11.11.2023",
       author: "A Definir",
       title: "Feira de Profissões na UNISEPE",
-      image: img01,
+      image: img03,
       description: "Na visita à UNISEPE em Registro-SP, os alunos do ensino médio participaram da Feira de Profissões, onde tiveram a oportunidade de conhecer diversas carreiras e interagir com profissionais de diferentes áreas.",
       path: "/career-fair"
     },

@@ -22,6 +22,9 @@ import BiologyContent from './pages/BiologyContent';
 import LiteratureContent from './pages/LiteratureContent';
 import SociologyContent from './pages/SociologyContent';
 import PhilosophyContent from './pages/PhilosophyContent';
+import CareerFair from './pages/CareerFair';
+import MarineDay from './pages/MarineDay';
+import OceanographyVisit from './pages/OceanographyVisit';
 
 function App() {
   return (
@@ -47,6 +50,9 @@ function App() {
         <Route path='/literatura' element={<LiteratureContent />} />
         <Route path='/sociologia' element={<SociologyContent />} />
         <Route path='/filosofia' element={<PhilosophyContent />} />
+        <Route path='/oceanography-visit' element={<OceanographyVisit />} />
+        <Route path='/marine-day' element={<MarineDay />} />
+        <Route path='/career-fair' element={<CareerFair />} />
       </Routes>
       <Footer />
     </Router>

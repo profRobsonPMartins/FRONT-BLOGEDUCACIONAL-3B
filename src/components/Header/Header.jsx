@@ -24,7 +24,7 @@ const Header = () => {
                     </ul>
                 </nav>
                 <div className="get-started">
-                    <a href="#start" className="btn01">
+                    <a href="https://front-website-yasp.onrender.com/" className="btn01">
                         Get Started
                     </a>
                 </div>
