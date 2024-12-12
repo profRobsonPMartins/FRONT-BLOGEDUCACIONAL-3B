@@ -10,7 +10,7 @@ const AssuntosDestaque = () => {
                 <div className="topic-card">
                     <i className="fas fa-code"></i>
                     <h3>Programação</h3>
-                    <p>&nbsp;&nbsp;Aprenda a criar aplicativos e resolver problemas através da lógica e da criatividade.</p>
+                    <p>&nbsp;&nbsp;Aprenda a criar aplicativos e resolver problemas através da lógica.</p>
                     <button className="topic-button" onClick={() => window.open('https://www.w3schools.com', '_blank')}>
                         Saiba Mais
                     </button>
@@ -28,7 +28,7 @@ const AssuntosDestaque = () => {
                 <div className="topic-card">
                     <i className="fas fa-book"></i>
                     <h3>Leitura</h3>
-                    <p>&nbsp;&nbsp;Descubra o poder da leitura e como ela pode enriquecer seu conhecimento e criatividade.</p>
+                    <p>&nbsp;&nbsp;Descubra o poder da leitura e como ela pode enriquecer seu conhecimento.</p>
                     <button className="topic-button" onClick={() => window.open('https://www.todamateria.com.br/lingua-portuguesa/', '_blank')}>
                         Saiba Mais
                     </button>

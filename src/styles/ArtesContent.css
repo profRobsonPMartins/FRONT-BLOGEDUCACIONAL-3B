@@ -1,0 +1,51 @@
+.artes-container {
+    color: var(--primeira-cor); /* Texto branco */
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+  
+  .artes-container h1 {
+    font-size: 2.5rem;
+    color: var(--terceira-cor); /* Destaque laranja */
+  }
+  
+  .artes-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+  }
+  
+  .artes-container h2 {
+    font-size: 2rem;
+    color: var(--quarta-cor); /* Destaque cinza claro */
+    margin-top: 1.5rem;
+  }
+  
+  .artes-container ul {
+    list-style-type: square;
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  .artes-container li {
+    margin: 0.5rem 0;
+  }
+  
+  .artes-container button {
+    background-color: var(--terceira-cor);
+    color: var(--quinta-cor);
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .artes-container button:hover {
+    background-color: var(--segunda-cor);
+    transform: scale(1.05);
+  }
+  
